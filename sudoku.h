@@ -19,6 +19,9 @@
 #include <ctype.h>
 #include <time.h>
 #include <stdlib.h>
+#ifndef _SUDOKU_H
+#define _SUDOKU_H
 extern int solve (char puzzle[][9]);
 extern void fill(char puzzle[][9]);
 extern void digEvil (char puzzle[][9]);
+#endif
